@@ -1,0 +1,115 @@
+/*---------------------------------------------
+    Body
+---------------------------------------------*/
+
+body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+/*---------------------------------------------
+    タイトル（ナビゲーションバー）/ フッター
+---------------------------------------------*/
+
+.title {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 30px;
+    -webkit-app-region: drag;
+    transition: all 0.3s ease;
+    font-size: 15px;
+    text-align: right;
+    vertical-align: middle;
+    color: rgb(214, 214, 214);
+    line-height: 30px;
+}
+
+.not-focus {
+    height:10px !important;
+    color: rgba(0, 0, 0, 0) !important;
+}
+
+.footer {
+    position: absolute;
+    width: 100%;
+    height: 35px;
+    transition: all 0.3s ease;
+    font-size: 20px;
+    text-align: right;
+    vertical-align: middle;
+    color: rgb(172, 172, 172);
+    line-height: 30px;
+    bottom: 0;
+    border-top: 1px solid #474747;  
+}
+
+/*---------------------------------------------
+    テキストインプット
+---------------------------------------------*/
+
+.text-input {
+    color: #989898;
+    padding-top: 40px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 80px;
+}
+
+.text-input input {
+    background: rgba(0, 0, 0, 0);
+    width: 100%;
+    height: 100%;
+    text-align: initial;
+    vertical-align: initial;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+/*---------------------------------------------
+    配色
+---------------------------------------------*/
+
+
+/*    メイン
+---------------------------------------------*/
+.sticky-white {
+    background-color: white;
+}
+
+.sticky-dark {
+    background-color: #333333 !important;
+}
+
+/*    サブ
+---------------------------------------------*/
+
+.sticky-sub-yellow {
+    background-color: #e6b904;
+}
+
+.sticky-sub-green {
+    background-color: #65ba5a;
+}
+
+.sticky-sub-pink {
+    background-color: #ea86c2;
+}
+
+.sticky-sub-purple {
+    background-color: #b07fe0;
+}
+
+.sticky-sub-blue {
+    background-color: #59c0e7;
+}
+
+.sticky-sub-gray {
+    background-color: #989898;
+}
+
+.sticky-sub-dark {
+    background-color: #474747;
+}
