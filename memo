@@ -1,0 +1,7 @@
+[連携]
+SticyClient側からuser_token,secret発行時の処理について
+
+・StickyClient側で乱数生成 ==> (session_id) {
+    ・ブラウザから連携にアクセス（このとき"session_id"パラメータを付与する）
+    ・StickyClientでトークン、シークレット要求APIにアクセス（bodyに"session_id"パラメータを付与）
+}
